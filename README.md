@@ -1,6 +1,6 @@
 # Java Spring H2 demo
 
-'''
+```
 --drop table "pallas"."address";
 --drop schema "pallas";
 
@@ -13,4 +13,4 @@ CREATE TABLE IF NOT EXISTS "address"
 "street" text NOT NULL,
 CONSTRAINT address_pkey PRIMARY KEY ("addressId")
 )
-'''
+```
