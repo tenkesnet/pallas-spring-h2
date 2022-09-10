@@ -7,14 +7,16 @@ import lombok.Setter;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
 @Getter @Setter @NoArgsConstructor
+@Table(name = "address")
 public class Address {
 
     @GeneratedValue
     @Id
-    private long addressId;
+    private int addressId;
     private String city;
     private String postalCode;
     private String street;
