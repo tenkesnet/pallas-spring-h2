@@ -1,5 +1,11 @@
 # Java Spring H2 demo
 
+Ezt a sort javítani kell src/main/resources/application.properties filet
+spring.datasource.url=jdbc:h2:file:c:/dev/testdb
+
+H2 adatbázis consolja:
+http://localhost:8080/h2-console/
+
 ```
 --drop table "pallas"."address";
 --drop schema "pallas";
